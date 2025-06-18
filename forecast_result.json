@@ -1,0 +1,1357 @@
+{
+    "model_info": {
+        "features": [
+            "sin_hour",
+            "cos_hour",
+            "day_of_week"
+        ],
+        "trained_on_last_n": 2000,
+        "train_date": "2025-06-17 22:24:41"
+    },
+    "forecast": [
+        {
+            "timestamp": "2025-06-17 22:34:40",
+            "suhu": 27.57,
+            "kelembapan": 82.85,
+            "mq135": 355,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-17 23:34:40",
+            "suhu": 27.52,
+            "kelembapan": 83.09,
+            "mq135": 350,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 00:34:40",
+            "suhu": 27.37,
+            "kelembapan": 83.26,
+            "mq135": 355,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 01:34:40",
+            "suhu": 27.35,
+            "kelembapan": 83.26,
+            "mq135": 352,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 02:34:40",
+            "suhu": 27.35,
+            "kelembapan": 83.14,
+            "mq135": 351,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 03:34:40",
+            "suhu": 27.36,
+            "kelembapan": 82.91,
+            "mq135": 351,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 04:34:40",
+            "suhu": 27.39,
+            "kelembapan": 82.58,
+            "mq135": 352,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 05:34:40",
+            "suhu": 27.44,
+            "kelembapan": 82.18,
+            "mq135": 355,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 06:34:40",
+            "suhu": 27.49,
+            "kelembapan": 81.73,
+            "mq135": 359,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 07:34:40",
+            "suhu": 27.56,
+            "kelembapan": 81.26,
+            "mq135": 365,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 08:34:40",
+            "suhu": 27.63,
+            "kelembapan": 80.82,
+            "mq135": 370,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 09:34:40",
+            "suhu": 27.7,
+            "kelembapan": 80.41,
+            "mq135": 376,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 10:34:40",
+            "suhu": 27.76,
+            "kelembapan": 80.09,
+            "mq135": 382,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 11:34:40",
+            "suhu": 27.82,
+            "kelembapan": 79.86,
+            "mq135": 387,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 12:34:40",
+            "suhu": 27.86,
+            "kelembapan": 79.74,
+            "mq135": 391,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 13:34:40",
+            "suhu": 27.88,
+            "kelembapan": 79.74,
+            "mq135": 394,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 14:34:40",
+            "suhu": 27.88,
+            "kelembapan": 79.86,
+            "mq135": 396,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 15:34:40",
+            "suhu": 27.87,
+            "kelembapan": 80.09,
+            "mq135": 396,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 16:34:40",
+            "suhu": 27.84,
+            "kelembapan": 80.42,
+            "mq135": 394,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 17:34:40",
+            "suhu": 27.8,
+            "kelembapan": 80.82,
+            "mq135": 391,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 18:34:40",
+            "suhu": 27.74,
+            "kelembapan": 81.27,
+            "mq135": 387,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 19:34:40",
+            "suhu": 27.67,
+            "kelembapan": 81.73,
+            "mq135": 382,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 20:34:40",
+            "suhu": 27.6,
+            "kelembapan": 82.18,
+            "mq135": 376,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 21:34:40",
+            "suhu": 27.53,
+            "kelembapan": 82.58,
+            "mq135": 370,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 22:34:40",
+            "suhu": 27.47,
+            "kelembapan": 82.91,
+            "mq135": 365,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-18 23:34:40",
+            "suhu": 27.41,
+            "kelembapan": 83.14,
+            "mq135": 359,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 00:34:40",
+            "suhu": 27.27,
+            "kelembapan": 83.32,
+            "mq135": 365,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 01:34:40",
+            "suhu": 27.25,
+            "kelembapan": 83.32,
+            "mq135": 362,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 02:34:40",
+            "suhu": 27.25,
+            "kelembapan": 83.2,
+            "mq135": 360,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 03:34:40",
+            "suhu": 27.26,
+            "kelembapan": 82.96,
+            "mq135": 360,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 04:34:40",
+            "suhu": 27.29,
+            "kelembapan": 82.63,
+            "mq135": 362,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 05:34:40",
+            "suhu": 27.34,
+            "kelembapan": 82.23,
+            "mq135": 365,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 06:34:40",
+            "suhu": 27.39,
+            "kelembapan": 81.78,
+            "mq135": 369,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 07:34:40",
+            "suhu": 27.46,
+            "kelembapan": 81.32,
+            "mq135": 374,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 08:34:40",
+            "suhu": 27.53,
+            "kelembapan": 80.87,
+            "mq135": 380,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 09:34:40",
+            "suhu": 27.6,
+            "kelembapan": 80.47,
+            "mq135": 386,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 10:34:40",
+            "suhu": 27.66,
+            "kelembapan": 80.14,
+            "mq135": 391,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 11:34:40",
+            "suhu": 27.72,
+            "kelembapan": 79.91,
+            "mq135": 397,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 12:34:40",
+            "suhu": 27.76,
+            "kelembapan": 79.79,
+            "mq135": 401,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 13:34:40",
+            "suhu": 27.78,
+            "kelembapan": 79.79,
+            "mq135": 404,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 14:34:40",
+            "suhu": 27.78,
+            "kelembapan": 79.91,
+            "mq135": 405,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 15:34:40",
+            "suhu": 27.77,
+            "kelembapan": 80.15,
+            "mq135": 405,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 16:34:40",
+            "suhu": 27.74,
+            "kelembapan": 80.48,
+            "mq135": 404,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 17:34:40",
+            "suhu": 27.69,
+            "kelembapan": 80.88,
+            "mq135": 401,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 18:34:40",
+            "suhu": 27.64,
+            "kelembapan": 81.33,
+            "mq135": 397,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 19:34:40",
+            "suhu": 27.57,
+            "kelembapan": 81.79,
+            "mq135": 391,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 20:34:40",
+            "suhu": 27.5,
+            "kelembapan": 82.24,
+            "mq135": 386,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 21:34:40",
+            "suhu": 27.43,
+            "kelembapan": 82.64,
+            "mq135": 380,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 22:34:40",
+            "suhu": 27.37,
+            "kelembapan": 82.97,
+            "mq135": 374,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-19 23:34:40",
+            "suhu": 27.31,
+            "kelembapan": 83.2,
+            "mq135": 369,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 00:34:40",
+            "suhu": 27.17,
+            "kelembapan": 83.37,
+            "mq135": 374,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 01:34:40",
+            "suhu": 27.15,
+            "kelembapan": 83.37,
+            "mq135": 371,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 02:34:40",
+            "suhu": 27.15,
+            "kelembapan": 83.25,
+            "mq135": 370,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 03:34:40",
+            "suhu": 27.16,
+            "kelembapan": 83.02,
+            "mq135": 370,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 04:34:40",
+            "suhu": 27.19,
+            "kelembapan": 82.69,
+            "mq135": 371,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 05:34:40",
+            "suhu": 27.23,
+            "kelembapan": 82.29,
+            "mq135": 374,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 06:34:40",
+            "suhu": 27.29,
+            "kelembapan": 81.84,
+            "mq135": 378,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 07:34:40",
+            "suhu": 27.36,
+            "kelembapan": 81.38,
+            "mq135": 383,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 08:34:40",
+            "suhu": 27.43,
+            "kelembapan": 80.93,
+            "mq135": 389,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 09:34:40",
+            "suhu": 27.5,
+            "kelembapan": 80.53,
+            "mq135": 395,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 10:34:40",
+            "suhu": 27.56,
+            "kelembapan": 80.2,
+            "mq135": 401,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 11:34:40",
+            "suhu": 27.61,
+            "kelembapan": 79.97,
+            "mq135": 406,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 12:34:40",
+            "suhu": 27.65,
+            "kelembapan": 79.85,
+            "mq135": 410,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 13:34:40",
+            "suhu": 27.68,
+            "kelembapan": 79.85,
+            "mq135": 413,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 14:34:40",
+            "suhu": 27.68,
+            "kelembapan": 79.97,
+            "mq135": 415,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 15:34:40",
+            "suhu": 27.67,
+            "kelembapan": 80.2,
+            "mq135": 415,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 16:34:40",
+            "suhu": 27.64,
+            "kelembapan": 80.53,
+            "mq135": 413,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 17:34:40",
+            "suhu": 27.59,
+            "kelembapan": 80.93,
+            "mq135": 410,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 18:34:40",
+            "suhu": 27.54,
+            "kelembapan": 81.38,
+            "mq135": 406,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 19:34:40",
+            "suhu": 27.47,
+            "kelembapan": 81.85,
+            "mq135": 401,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 20:34:40",
+            "suhu": 27.4,
+            "kelembapan": 82.29,
+            "mq135": 395,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 21:34:40",
+            "suhu": 27.33,
+            "kelembapan": 82.7,
+            "mq135": 389,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 22:34:40",
+            "suhu": 27.27,
+            "kelembapan": 83.02,
+            "mq135": 383,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-20 23:34:40",
+            "suhu": 27.21,
+            "kelembapan": 83.25,
+            "mq135": 378,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 00:34:40",
+            "suhu": 27.07,
+            "kelembapan": 83.43,
+            "mq135": 383,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 01:34:40",
+            "suhu": 27.05,
+            "kelembapan": 83.43,
+            "mq135": 381,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 02:34:40",
+            "suhu": 27.04,
+            "kelembapan": 83.31,
+            "mq135": 379,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 03:34:40",
+            "suhu": 27.06,
+            "kelembapan": 83.08,
+            "mq135": 379,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 04:34:40",
+            "suhu": 27.09,
+            "kelembapan": 82.75,
+            "mq135": 381,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 05:34:40",
+            "suhu": 27.13,
+            "kelembapan": 82.34,
+            "mq135": 384,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 06:34:40",
+            "suhu": 27.19,
+            "kelembapan": 81.9,
+            "mq135": 388,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 07:34:40",
+            "suhu": 27.26,
+            "kelembapan": 81.43,
+            "mq135": 393,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 08:34:40",
+            "suhu": 27.33,
+            "kelembapan": 80.98,
+            "mq135": 399,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 09:34:40",
+            "suhu": 27.4,
+            "kelembapan": 80.58,
+            "mq135": 405,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 10:34:40",
+            "suhu": 27.46,
+            "kelembapan": 80.26,
+            "mq135": 410,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 11:34:40",
+            "suhu": 27.51,
+            "kelembapan": 80.02,
+            "mq135": 415,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 12:34:40",
+            "suhu": 27.55,
+            "kelembapan": 79.9,
+            "mq135": 420,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 13:34:40",
+            "suhu": 27.58,
+            "kelembapan": 79.91,
+            "mq135": 423,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 14:34:40",
+            "suhu": 27.58,
+            "kelembapan": 80.03,
+            "mq135": 424,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 15:34:40",
+            "suhu": 27.57,
+            "kelembapan": 80.26,
+            "mq135": 424,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 16:34:40",
+            "suhu": 27.54,
+            "kelembapan": 80.59,
+            "mq135": 422,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 17:34:40",
+            "suhu": 27.49,
+            "kelembapan": 80.99,
+            "mq135": 420,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 18:34:40",
+            "suhu": 27.43,
+            "kelembapan": 81.44,
+            "mq135": 415,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 19:34:40",
+            "suhu": 27.37,
+            "kelembapan": 81.9,
+            "mq135": 410,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 20:34:40",
+            "suhu": 27.3,
+            "kelembapan": 82.35,
+            "mq135": 404,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 21:34:40",
+            "suhu": 27.23,
+            "kelembapan": 82.75,
+            "mq135": 399,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 22:34:40",
+            "suhu": 27.17,
+            "kelembapan": 83.08,
+            "mq135": 393,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-21 23:34:40",
+            "suhu": 27.11,
+            "kelembapan": 83.31,
+            "mq135": 388,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 00:34:40",
+            "suhu": 26.97,
+            "kelembapan": 83.49,
+            "mq135": 393,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 01:34:40",
+            "suhu": 26.95,
+            "kelembapan": 83.49,
+            "mq135": 390,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 02:34:40",
+            "suhu": 26.94,
+            "kelembapan": 83.36,
+            "mq135": 388,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 03:34:40",
+            "suhu": 26.96,
+            "kelembapan": 83.13,
+            "mq135": 388,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 04:34:40",
+            "suhu": 26.99,
+            "kelembapan": 82.8,
+            "mq135": 390,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 05:34:40",
+            "suhu": 27.03,
+            "kelembapan": 82.4,
+            "mq135": 393,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 06:34:40",
+            "suhu": 27.09,
+            "kelembapan": 81.95,
+            "mq135": 397,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 07:34:40",
+            "suhu": 27.16,
+            "kelembapan": 81.49,
+            "mq135": 402,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 08:34:40",
+            "suhu": 27.23,
+            "kelembapan": 81.04,
+            "mq135": 408,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 09:34:40",
+            "suhu": 27.3,
+            "kelembapan": 80.64,
+            "mq135": 414,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 10:34:40",
+            "suhu": 27.36,
+            "kelembapan": 80.31,
+            "mq135": 420,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 11:34:40",
+            "suhu": 27.41,
+            "kelembapan": 80.08,
+            "mq135": 425,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 12:34:40",
+            "suhu": 27.45,
+            "kelembapan": 79.96,
+            "mq135": 429,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 13:34:40",
+            "suhu": 27.48,
+            "kelembapan": 79.96,
+            "mq135": 432,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 14:34:40",
+            "suhu": 27.48,
+            "kelembapan": 80.08,
+            "mq135": 433,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 15:34:40",
+            "suhu": 27.47,
+            "kelembapan": 80.32,
+            "mq135": 433,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 16:34:40",
+            "suhu": 27.44,
+            "kelembapan": 80.64,
+            "mq135": 432,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 17:34:40",
+            "suhu": 27.39,
+            "kelembapan": 81.05,
+            "mq135": 429,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 18:34:40",
+            "suhu": 27.33,
+            "kelembapan": 81.5,
+            "mq135": 425,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 19:34:40",
+            "suhu": 27.27,
+            "kelembapan": 81.96,
+            "mq135": 420,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 20:34:40",
+            "suhu": 27.2,
+            "kelembapan": 82.41,
+            "mq135": 414,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 21:34:40",
+            "suhu": 27.13,
+            "kelembapan": 82.81,
+            "mq135": 408,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 22:34:40",
+            "suhu": 27.07,
+            "kelembapan": 83.14,
+            "mq135": 402,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-22 23:34:40",
+            "suhu": 27.01,
+            "kelembapan": 83.37,
+            "mq135": 397,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 00:34:40",
+            "suhu": 27.58,
+            "kelembapan": 83.15,
+            "mq135": 336,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 01:34:40",
+            "suhu": 27.55,
+            "kelembapan": 83.15,
+            "mq135": 334,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 02:34:40",
+            "suhu": 27.55,
+            "kelembapan": 83.03,
+            "mq135": 332,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 03:34:40",
+            "suhu": 27.56,
+            "kelembapan": 82.79,
+            "mq135": 332,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 04:34:40",
+            "suhu": 27.59,
+            "kelembapan": 82.47,
+            "mq135": 334,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 05:34:40",
+            "suhu": 27.64,
+            "kelembapan": 82.06,
+            "mq135": 336,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 06:34:40",
+            "suhu": 27.7,
+            "kelembapan": 81.62,
+            "mq135": 341,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 07:34:40",
+            "suhu": 27.76,
+            "kelembapan": 81.15,
+            "mq135": 346,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 08:34:40",
+            "suhu": 27.83,
+            "kelembapan": 80.7,
+            "mq135": 352,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 09:34:40",
+            "suhu": 27.9,
+            "kelembapan": 80.3,
+            "mq135": 357,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 10:34:40",
+            "suhu": 27.96,
+            "kelembapan": 79.97,
+            "mq135": 363,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 11:34:40",
+            "suhu": 28.02,
+            "kelembapan": 79.74,
+            "mq135": 368,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 12:34:40",
+            "suhu": 28.06,
+            "kelembapan": 79.62,
+            "mq135": 373,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 13:34:40",
+            "suhu": 28.08,
+            "kelembapan": 79.62,
+            "mq135": 375,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 14:34:40",
+            "suhu": 28.09,
+            "kelembapan": 79.75,
+            "mq135": 377,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 15:34:40",
+            "suhu": 28.07,
+            "kelembapan": 79.98,
+            "mq135": 377,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 16:34:40",
+            "suhu": 28.04,
+            "kelembapan": 80.31,
+            "mq135": 375,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 17:34:40",
+            "suhu": 28.0,
+            "kelembapan": 80.71,
+            "mq135": 372,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 18:34:40",
+            "suhu": 27.94,
+            "kelembapan": 81.16,
+            "mq135": 368,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 19:34:40",
+            "suhu": 27.87,
+            "kelembapan": 81.62,
+            "mq135": 363,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 20:34:40",
+            "suhu": 27.8,
+            "kelembapan": 82.07,
+            "mq135": 357,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 21:34:40",
+            "suhu": 27.73,
+            "kelembapan": 82.47,
+            "mq135": 351,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 22:34:40",
+            "suhu": 27.67,
+            "kelembapan": 82.8,
+            "mq135": 346,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-23 23:34:40",
+            "suhu": 27.62,
+            "kelembapan": 83.03,
+            "mq135": 341,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 00:34:40",
+            "suhu": 27.48,
+            "kelembapan": 83.21,
+            "mq135": 346,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 01:34:40",
+            "suhu": 27.45,
+            "kelembapan": 83.2,
+            "mq135": 343,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 02:34:40",
+            "suhu": 27.45,
+            "kelembapan": 83.08,
+            "mq135": 341,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 03:34:40",
+            "suhu": 27.46,
+            "kelembapan": 82.85,
+            "mq135": 341,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 04:34:40",
+            "suhu": 27.49,
+            "kelembapan": 82.52,
+            "mq135": 343,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 05:34:40",
+            "suhu": 27.54,
+            "kelembapan": 82.12,
+            "mq135": 346,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 06:34:40",
+            "suhu": 27.59,
+            "kelembapan": 81.67,
+            "mq135": 350,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 07:34:40",
+            "suhu": 27.66,
+            "kelembapan": 81.21,
+            "mq135": 355,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 08:34:40",
+            "suhu": 27.73,
+            "kelembapan": 80.76,
+            "mq135": 361,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 09:34:40",
+            "suhu": 27.8,
+            "kelembapan": 80.36,
+            "mq135": 367,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 10:34:40",
+            "suhu": 27.86,
+            "kelembapan": 80.03,
+            "mq135": 373,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 11:34:40",
+            "suhu": 27.92,
+            "kelembapan": 79.8,
+            "mq135": 378,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 12:34:40",
+            "suhu": 27.96,
+            "kelembapan": 79.68,
+            "mq135": 382,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 13:34:40",
+            "suhu": 27.98,
+            "kelembapan": 79.68,
+            "mq135": 385,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 14:34:40",
+            "suhu": 27.99,
+            "kelembapan": 79.8,
+            "mq135": 386,
+            "label_suhu_kelembapan": "gerah",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 15:34:40",
+            "suhu": 27.97,
+            "kelembapan": 80.03,
+            "mq135": 386,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 16:34:40",
+            "suhu": 27.94,
+            "kelembapan": 80.36,
+            "mq135": 385,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 17:34:40",
+            "suhu": 27.9,
+            "kelembapan": 80.77,
+            "mq135": 382,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 18:34:40",
+            "suhu": 27.84,
+            "kelembapan": 81.21,
+            "mq135": 378,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 19:34:40",
+            "suhu": 27.77,
+            "kelembapan": 81.68,
+            "mq135": 373,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 20:34:40",
+            "suhu": 27.7,
+            "kelembapan": 82.13,
+            "mq135": 367,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        },
+        {
+            "timestamp": "2025-06-24 21:34:40",
+            "suhu": 27.63,
+            "kelembapan": 82.53,
+            "mq135": 361,
+            "label_suhu_kelembapan": "lembab",
+            "label_kualitas_udara": "sangat baik"
+        }
+    ]
+}
