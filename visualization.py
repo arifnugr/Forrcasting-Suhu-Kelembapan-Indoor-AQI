@@ -3,88 +3,126 @@ import plotly.graph_objs as go
 from dash import Dash, dcc, html, Input, Output
 import json
 
-# Load forecast data
+# --- Load Data Asli ---
+raw_df = pd.read_csv("sensor_data.csv", parse_dates=["timestamp"])
+raw_df = raw_df.sort_values("timestamp")
+raw_df["timestamp"] = pd.to_datetime(raw_df["timestamp"])
+raw_df["date"] = raw_df["timestamp"].dt.date
+
+# Ambil data mulai tanggal 1 bulan ini
+first_day = pd.Timestamp.now().replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+raw_df = raw_df[raw_df["timestamp"] >= first_day]
+
+# --- Load Data Prediksi ---
 with open("forecast_result.json", "r") as f:
-    data = json.load(f)["forecast"]
+    forecast = json.load(f)["forecast"]
 
-# Convert to DataFrame
-df = pd.DataFrame(data)
-df["timestamp"] = pd.to_datetime(df["timestamp"])
-df["date"] = df["timestamp"].dt.date
+forecast_df = pd.DataFrame(forecast)
+forecast_df["timestamp"] = pd.to_datetime(forecast_df["timestamp"])
+forecast_df["date"] = forecast_df["timestamp"].dt.date
 
-# Initialize Dash app
+# Gabungkan semua tanggal unik dari data asli dan prediksi
+all_dates = sorted(set(raw_df["date"].unique()).union(set(forecast_df["date"].unique())))
+
+# --- Inisialisasi Dash App ---
 app = Dash(__name__)
 app.title = "Dashboard Forecasting"
 
-# Layout
+# --- Layout ---
 app.layout = html.Div([
     html.H2("Dashboard Forecasting Suhu, Kelembapan & Kualitas Udara", style={"textAlign": "center"}),
 
     html.Label("Pilih Tanggal:"),
     dcc.Dropdown(
         id="date-selector",
-        options=[{"label": str(d), "value": str(d)} for d in sorted(df["date"].unique())],
-        value=str(df["date"].min()),
+        options=[{"label": str(d), "value": str(d)} for d in all_dates],
+        value=str(min(all_dates)),
         clearable=False,
         style={"width": "300px", "marginBottom": "20px"}
     ),
 
     dcc.Graph(id="forecast-graph", style={"height": "600px"}),
 
-    html.Div("Data berasal dari file forecast_result.json", id="footer", style={"textAlign": "center", "marginTop": "30px", "color": "#666"})
+    html.Div("Data asli dari sensor_data.csv, prediksi dari forecast_result.json", 
+             id="footer", style={"textAlign": "center", "marginTop": "30px", "color": "#666"})
 ])
 
-# Callback untuk memperbarui grafik berdasarkan tanggal
+# --- Callback ---
 @app.callback(
     Output("forecast-graph", "figure"),
     Input("date-selector", "value")
 )
 def update_graph(selected_date):
-    dff = df[df["date"] == pd.to_datetime(selected_date).date()]
+    selected_date = pd.to_datetime(selected_date).date()
+
+    # Filter data
+    df_actual = raw_df[raw_df["date"] == selected_date]
+    df_pred = forecast_df[forecast_df["date"] == selected_date]
 
     fig = go.Figure()
 
-    # Garis suhu
+    # --- SUHU ---
+    # Data asli (putus-putus)
     fig.add_trace(go.Scatter(
-        x=dff["timestamp"],
-        y=dff["suhu"],
+        x=df_actual["timestamp"],
+        y=df_actual["suhu"],
         mode="lines+markers",
-        name="Suhu (°C)",
-        line=dict(color="orange"),
-        hovertemplate=(
-            "<b>Waktu:</b> %{x}<br>"
-            "<b>Suhu:</b> %{y:.1f} °C<br>"
-            "<b>Kelembapan:</b> %{customdata[0]:.1f} %<br>"
-            "<b>MQ135:</b> %{customdata[1]}<br>"
-            "<b>Label Suhu-Kelembapan:</b> %{customdata[2]}<br>"
-            "<b>Label Udara:</b> %{customdata[3]}<extra></extra>"
-        ),
-        customdata=dff[["kelembapan", "mq135", "label_suhu_kelembapan", "label_kualitas_udara"]]
+        name="Suhu Asli (°C)",
+        line=dict(color="orange", dash="dot"),
+        hovertemplate="<b>Waktu:</b> %{x}<br><b>Suhu Asli:</b> %{y:.1f} °C<extra></extra>"
+    ))
+    # Data prediksi
+    fig.add_trace(go.Scatter(
+        x=df_pred["timestamp"],
+        y=df_pred["suhu"],
+        mode="lines+markers",
+        name="Suhu Prediksi (°C)",
+        line=dict(color="orange", dash="solid"),
+        hovertemplate="<b>Waktu:</b> %{x}<br><b>Suhu Prediksi:</b> %{y:.1f} °C<br><b>Kelembapan:</b> %{customdata[0]:.1f} %<br><b>MQ135:</b> %{customdata[1]}<br><b>Label:</b> %{customdata[2]}<br><b>Udara:</b> %{customdata[3]}<extra></extra>",
+        customdata=df_pred[["kelembapan", "mq135", "label_suhu_kelembapan", "label_kualitas_udara"]]
     ))
 
-    # Garis kelembapan
+    # --- KELEMBAPAN ---
     fig.add_trace(go.Scatter(
-        x=dff["timestamp"],
-        y=dff["kelembapan"],
+        x=df_actual["timestamp"],
+        y=df_actual["kelembapan"],
         mode="lines+markers",
-        name="Kelembapan (%)",
-        line=dict(color="blue"),
+        name="Kelembapan Asli (%)",
+        line=dict(color="blue", dash="dot"),
+        hoverinfo="skip"
+    ))
+    fig.add_trace(go.Scatter(
+        x=df_pred["timestamp"],
+        y=df_pred["kelembapan"],
+        mode="lines+markers",
+        name="Kelembapan Prediksi (%)",
+        line=dict(color="blue", dash="solid"),
         hoverinfo="skip"
     ))
 
-    # Garis MQ135
+    # --- MQ135 (Y-Axis ke-2) ---
     fig.add_trace(go.Scatter(
-        x=dff["timestamp"],
-        y=dff["mq135"],
+        x=df_actual["timestamp"],
+        y=df_actual["mq135"],
         mode="lines+markers",
-        name="MQ135",
-        line=dict(color="green"),
+        name="MQ135 Asli",
+        line=dict(color="green", dash="dot"),
+        yaxis="y2",
+        hoverinfo="skip"
+    ))
+    fig.add_trace(go.Scatter(
+        x=df_pred["timestamp"],
+        y=df_pred["mq135"],
+        mode="lines+markers",
+        name="MQ135 Prediksi",
+        line=dict(color="green", dash="solid"),
         yaxis="y2",
         hoverinfo="skip"
     ))
 
+    # --- Layout ---
     fig.update_layout(
-        title=f"Forecast untuk {selected_date}",
+        title=f"Data & Prediksi untuk {selected_date}",
         xaxis_title="Waktu",
         yaxis_title="Suhu / Kelembapan",
         yaxis2=dict(
@@ -100,6 +138,6 @@ def update_graph(selected_date):
 
     return fig
 
-# Jalankan aplikasi
+# --- Run ---
 if __name__ == "__main__":
     app.run(debug=True)
